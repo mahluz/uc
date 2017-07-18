@@ -4,117 +4,117 @@
 		<div id="slider1" class="rev_slider"  data-version="5.0">
 			<ul>
 				<li data-transition="parallaxvertical">
-					<img src="{{url('public/img/slides/1.jpg')}}"  alt="" width="1920" height="705" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
-					<div class="tp-caption sfl tp-resizeme thm-banner-h1" 
-				        data-x="left" data-hoffset="0" 
-				        data-y="top" data-voffset="225" 
+					<img src="{{url('public/layout/slider/slider1.jpeg')}}"  alt="" width="1920" height="705" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+					<div class="tp-caption sfl tp-resizeme thm-banner-h1"
+				        data-x="left" data-hoffset="0"
+				        data-y="top" data-voffset="225"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="500">
 						To feed and educate!
 				    </div>
-					<div class="tp-caption sfr tp-resizeme thm-banner-h1 heavy" 
-				        data-x="left" data-hoffset="0" 
-				        data-y="top" data-voffset="290" 
+					<div class="tp-caption sfr tp-resizeme thm-banner-h1 heavy"
+				        data-x="left" data-hoffset="0"
+				        data-y="top" data-voffset="290"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="1000">
 						We need your support
 				    </div>
-					<div class="tp-caption sfb tp-resizeme thm-banner-h3" 
-				        data-x="left" data-hoffset="0" 
-				        data-y="top" data-voffset="368" 
+					<div class="tp-caption sfb tp-resizeme thm-banner-h3"
+				        data-x="left" data-hoffset="0"
+				        data-y="top" data-voffset="368"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="1500">
 						Became a part to change the world
 				    </div>
-					<div class="tp-caption sfb tp-resizeme thm-banner-p" 
-				        data-x="left" data-hoffset="0" 
-				        data-y="top" data-voffset="430" 
+					<div class="tp-caption sfb tp-resizeme thm-banner-p"
+				        data-x="left" data-hoffset="0"
+				        data-y="top" data-voffset="430"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="2000">
 						Our Company has a long tradition of charitable giving and <br> philanthropy. Lorem ipsum dolor sit amet.
 				    </div>
-					<div class="tp-caption sfl tp-resizeme" 
-				        data-x="left" data-hoffset="0" 
-				        data-y="top" data-voffset="505" 
+					<div class="tp-caption sfl tp-resizeme"
+				        data-x="left" data-hoffset="0"
+				        data-y="top" data-voffset="505"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="2300">
 						<a href="#" class="thm-btn">Read more</a>
 				    </div>
-					<div class="tp-caption sfr tp-resizeme" 
-				        data-x="left" data-hoffset="185" 
-				        data-y="top" data-voffset="505" 
+					<div class="tp-caption sfr tp-resizeme"
+				        data-x="left" data-hoffset="185"
+				        data-y="top" data-voffset="505"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="2600">
 						<a href="#" class="thm-btn inverse">Learn More</a>
 				    </div>
 				</li>
 				<li data-transition="parallaxvertical">
-					<img src="{{url('public/img/slides/2.jpg')}}"  alt=""  width="1920" height="705" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="2" >
-					<div class="tp-caption sfl tp-resizeme thm-banner-h1 blue-bg" 
-				        data-x="left" data-hoffset="0" 
-				        data-y="top" data-voffset="249" 
+					<img src="{{url('public/layout/slider/slider2.jpeg')}}"  alt=""  width="1920" height="705" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="2" >
+					<div class="tp-caption sfl tp-resizeme thm-banner-h1 blue-bg"
+				        data-x="left" data-hoffset="0"
+				        data-y="top" data-voffset="249"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="500">
 						To feed and educate!
 				    </div>
-					<div class="tp-caption sfr tp-resizeme thm-banner-h1 heavy black-bg" 
-				        data-x="left" data-hoffset="0" 
-				        data-y="top" data-voffset="318" 
+					<div class="tp-caption sfr tp-resizeme thm-banner-h1 heavy black-bg"
+				        data-x="left" data-hoffset="0"
+				        data-y="top" data-voffset="318"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="1000">
 						We need your support
 				    </div>
-					<div class="tp-caption sfb tp-resizeme thm-banner-h3" 
-				        data-x="left" data-hoffset="0" 
-				        data-y="top" data-voffset="386" 
+					<div class="tp-caption sfb tp-resizeme thm-banner-h3"
+				        data-x="left" data-hoffset="0"
+				        data-y="top" data-voffset="386"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="1500">
 						Became a part to change the world
 				    </div>
-					<div class="tp-caption sfl tp-resizeme" 
-				        data-x="left" data-hoffset="0" 
-				        data-y="top" data-voffset="450" 
+					<div class="tp-caption sfl tp-resizeme"
+				        data-x="left" data-hoffset="0"
+				        data-y="top" data-voffset="450"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="2300">
 						<a href="#" class="thm-btn">Read more</a>
 				    </div>
-					<div class="tp-caption sfr tp-resizeme" 
-				        data-x="left" data-hoffset="185" 
-				        data-y="top" data-voffset="450" 
+					<div class="tp-caption sfr tp-resizeme"
+				        data-x="left" data-hoffset="185"
+				        data-y="top" data-voffset="450"
 				        data-whitespace="nowrap"
-				        data-transform_idle="o:1;" 
-				        data-transform_in="o:0" 
-				        data-transform_out="o:0" 
+				        data-transform_idle="o:1;"
+				        data-transform_in="o:0"
+				        data-transform_out="o:0"
 				        data-start="2600">
 						<a href="#" class="thm-btn inverse">Learn More</a>
 				    </div>
@@ -128,12 +128,12 @@
 <section class="call-to-action">
 		<div class="container-fluid">
 			<div class="clearfix">
-				<div class="call-to-action-corner col-md-4" style="background-image: url(img/call-to-action/left-box-bg.jpg);">
+				<div class="call-to-action-corner col-md-4" style="background-image: url({{url('public/layout/information1/bg1.jpeg')}});">
 					<div class="single-call-to-action">
 						<div class="icon-box">
 							<div class="inner-box">
-								<i class="flaticon-circle"></i>
-							</div>						
+								<i class="fa fa-cutlery"></i>
+							</div>
 						</div>
 						<div class="content-box">
 							<h3>Restaurant</h3>
@@ -142,12 +142,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="call-to-action-center col-md-4" style="background-image: url(img/call-to-action/center-box-bg.jpg);">
+				<div class="call-to-action-center col-md-4" style="background-image: url({{url('public/layout/information1/bg2.jpeg')}});">
 					<div class="single-call-to-action">
 						<div class="icon-box">
 							<div class="inner-box">
-								<i class="flaticon-social"></i>
-							</div>						
+								<i class="fa fa-shopping-cart"></i>
+							</div>
 						</div>
 						<div class="content-box">
 							<h3>Barang Antik</h3>
@@ -156,12 +156,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="call-to-action-corner col-md-4" style="background-image: url(img/call-to-action/right-box-bg.jpg);">
+				<div class="call-to-action-corner col-md-4" style="background-image: url({{url('public/layout/information1/bg3.jpeg')}});">
 					<div class="single-call-to-action">
 						<div class="icon-box">
 							<div class="inner-box">
-								<i class="flaticon-medical"></i>
-							</div>						
+								<i class="fa fa-child"></i>
+							</div>
 						</div>
 						<div class="content-box">
 							<h3>Hiburan</h3>
@@ -187,7 +187,7 @@
 	          <div class="col-sm-6 col-md-6 col-lg-3">
 	            <div class="causes style-two">
 	              <div class="thumb">
-	                <img class="full-width" alt="" src="img/causes/1.jpg">
+	                <img class="full-width" alt="" src="{{url('public/layout/promo/promo1.jpeg')}}">
 	                <div class="donate-piechart">
 	                  <div class="piechart-block">
 	                    <div class="piechart style-one"  data-fg-color="rgba(250,119,68,1)" data-value=".75">
@@ -212,7 +212,7 @@
 	          <div class="col-sm-6 col-md-6 col-lg-3">
 	            <div class="causes style-two">
 	              <div class="thumb">
-	                <img class="full-width" alt="" src="img/causes/2.jpg">
+	                <img class="full-width" alt="" src="{{url('public/layout/promo/promo2.jpeg')}}">
 	                <div class="donate-piechart">
 	                  <div class="piechart-block">
 	                    <div class="piechart style-one"  data-fg-color="rgba(250,119,68,1)" data-value=".75">
@@ -237,7 +237,7 @@
 	          <div class="col-sm-6 col-md-6 col-lg-3">
 	            <div class="causes style-two">
 	              <div class="thumb">
-	                <img class="full-width" alt="" src="img/causes/3.jpg">
+	                <img class="full-width" alt="" src="{{url('public/layout/promo/promo3.jpeg')}}">
 	                <div class="donate-piechart">
 	                  <div class="piechart-block">
 	                    <div class="piechart style-one"  data-fg-color="rgba(250,119,68,1)" data-value=".75">
@@ -262,7 +262,7 @@
 	          <div class="col-sm-6 col-md-6 col-lg-3">
 	            <div class="causes style-two">
 	              <div class="thumb">
-	                <img class="full-width" alt="" src="img/causes/4.jpg">
+	                <img class="full-width" alt="" src="{{url('public/layout/promo/promo2.jpeg')}}">
 	                <div class="donate-piechart">
 	                  <div class="piechart-block">
 	                    <div class="piechart style-one"  data-fg-color="rgba(250,119,68,1)" data-value=".75">
@@ -368,17 +368,17 @@
 	                </div>
 	              </div>
 	            </div>
-	          </div>	          
+	          </div>
 				<div class="col-md-6 hidden-md hidden-sm">
 					<div class="img-masonary">
 						<div class="img-w1">
-							<img src="{{url('public/img/faq/1.jpg')}}" height="450" width="280" alt="">
+							<img src="{{url('public/layout/event/event1.jpeg')}}" height="450" width="280" alt="">
 						</div>
 						<div class="img-w1 img-h1">
-							<img src="{{url('public/img/faq/2.jpg')}}" height="450" width="280" alt="">
+							<img src="{{url('public/layout/event/event2.jpeg')}}" height="450" width="280" alt="">
 						</div>
 						<div class="img-w1 img-h1">
-							<img src="{{url('public/img/faq/3.jpg')}}" height="450" width="280" alt="">
+							<img src="{{url('public/layout/event/event3.jpeg')}}" height="450" width="280" alt="">
 						</div>
 					</div>
 				</div>
@@ -387,7 +387,7 @@
 	</section>
 @endsection
 @section('information2')
-<section class="overlay-white sec-padding parallax-section">
+<section class="overlay-white sec-padding parallax-section" style="background-image:url({{url('public/layout/information2/bg1.jpeg')}})">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 promote-project text-center">
@@ -415,7 +415,7 @@
 				<span class="decor"><span class="inner"></span></span>
 			</div>
         </div>
-        
+
         <div class="clearfix">
             <!--Image Box-->
             <div class="image-box">
@@ -424,7 +424,7 @@
                     <a href="{{url('public/img/gallery/s1.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
                 </div>
             </div>
-            
+
             <!--Image Box-->
             <div class="image-box">
                 <div class="inner-box">
@@ -432,7 +432,7 @@
                     <a href="{{url('public/img/gallery/s2.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
                 </div>
             </div>
-            
+
             <!--Image Box-->
             <div class="image-box">
                 <div class="inner-box">
@@ -440,7 +440,7 @@
                     <a href="{{url('public/img/gallery/s3.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
                 </div>
             </div>
-            
+
             <!--Image Box-->
             <div class="image-box">
                 <div class="inner-box">
@@ -448,7 +448,7 @@
                     <a href="{{url('public/img/gallery/s4.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
                 </div>
             </div>
-            
+
             <!--Image Box-->
             <div class="image-box">
                 <div class="inner-box">
@@ -456,7 +456,7 @@
                     <a href="{{url('public/img/gallery/s5.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
                 </div>
             </div>
-            
+
             <!--Image Box-->
             <div class="image-box">
                 <div class="inner-box">
@@ -464,7 +464,7 @@
                     <a href="{{url('public/img/gallery/s6.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
                 </div>
             </div>
-            
+
             <!--Image Box-->
             <div class="image-box">
                 <div class="inner-box">
@@ -472,7 +472,7 @@
                     <a href="{{url('public/img/gallery/s7.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
                 </div>
             </div>
-            
+
             <!--Image Box-->
             <div class="image-box">
                 <div class="inner-box">
@@ -480,7 +480,7 @@
                     <a href="{{url('public/img/gallery/s8.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
                 </div>
             </div>
-        
+
         </div>
     </section>
 @endsection
@@ -497,18 +497,6 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-12 sm-col5-center mb-sm-40">
 					<div class="single-blog-post">
-						<div class="img-box">
-							<img class="full-width" src="img/blog/1.jpg" alt="">
-							<div class="overlay">
-								<div class="box">
-									<div class="content">
-										<ul>
-											<li><a href="blog-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
 						<div class="content-box">
 							<div class="date-box">
 								<div class="inner">
@@ -531,18 +519,6 @@
 				</div>
 				<div class="col-md-4 col-sm-12 sm-col5-center mb-sm-40">
 					<div class="single-blog-post">
-						<div class="img-box">
-							<img class="full-width" src="img/blog/2.jpg" alt="">
-							<div class="overlay">
-								<div class="box">
-									<div class="content">
-										<ul>
-											<li><a href="blog-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
 						<div class="content-box">
 							<div class="date-box">
 								<div class="inner">
@@ -565,18 +541,7 @@
 				</div>
 				<div class="col-md-4 col-sm-12 sm-col5-center mb-sm-40">
 					<div class="single-blog-post">
-						<div class="img-box">
-							<img class="full-width" src="img/blog/3.jpg" alt="">
-							<div class="overlay">
-								<div class="box">
-									<div class="content">
-										<ul>
-											<li><a href="blog-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
+
 						<div class="content-box">
 							<div class="date-box">
 								<div class="inner">

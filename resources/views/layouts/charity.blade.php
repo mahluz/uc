@@ -6,7 +6,7 @@
 
 	<!-- responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<!-- master stylesheet -->
 	<link rel="stylesheet" href="{{url('public/css/style.css')}}">
 	<!-- responsive stylesheet -->
@@ -21,32 +21,8 @@
 		<div class="container">
 			<div class="logo pull-left">
 				<a href="index.html">
-					<img src="img/resources/logo.png" alt="Awesome Image"/>
+					<img src="{{url('public/img/logo/logo_uc.png')}}" alt="Awesome Image"/>
 				</a>
-			</div>
-			<div class="header-right-info pull-right clearfix">
-				<div class="single-header-info">
-					<div class="icon-box">
-						<div class="inner-box">
-							<i class="flaticon-interface-2"></i>
-						</div>
-					</div>
-					<div class="content">
-						<h3>EMAIL</h3>
-						<p>companyname@mail.com</p>
-					</div>
-				</div>
-				<div class="single-header-info">
-					<div class="icon-box">
-						<div class="inner-box">
-							<i class="flaticon-telephone"></i>
-						</div>
-					</div>
-					<div class="content">
-						<h3>Call Now</h3>
-						<p><b>(732) 803-010-03</b></p>
-					</div>
-				</div>
 			</div>
 		</div>
 	</header> <!-- /.header -->
@@ -63,7 +39,7 @@
 								<li><a href="index2.html">Home Two</a></li>
 							</ul>
 						</li>
-						<li><a href="about.html">About</a></li>						
+						<li><a href="about.html">About</a></li>
 						<li class="dropdown">
 							<a href="#">Events</a>
 							<ul class="submenu">
@@ -124,7 +100,7 @@
 
 	@yield('gallery')
 
-    @yield('news')
+  @yield('news')
 
 
 	<section class="p_40" data-bg-color="#eee">
@@ -177,14 +153,14 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<footer class="footer sec-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-6">
 					<div class="footer-widget about-widget">
 						<a href="#">
-							<img src="img/resources/footer-logo.png" alt="Awesome Image"/>
+							<img src="{{url('public/img/logo/logo_uc.png')}}" alt="Awesome Image"/>
 						</a>
 						<p>Lorem ipsum dolor sit amet, eu me evert laboramus, iudico </p>
 						<ul class="contact">
@@ -288,8 +264,6 @@
 	<script src="{{url('public/js/jquery.easing.min.js')}}"></script>
 	<!-- count to -->
 	<script src="{{url('public/js/jquery.countTo.js')}}"></script>
-	<!-- easyPieChart -->
-	<script src="{{url('public/js/easypiechart.min.js')}}"></script
 	<!-- gmap helper -->
 	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 	<!-- gmap main script -->
@@ -299,7 +273,7 @@
 	<script src="{{url('public/js/isotope.pkgd.min.js')}}"></script>
 	<!-- jQuery ui js -->
 	<script src="{{url('public/js/jquery-ui-1.11.4/jquery-ui.js')}}"></script>
-	
+
 	<!-- revolution scripts -->
 
 	<script src="{{url('public/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
