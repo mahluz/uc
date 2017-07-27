@@ -417,70 +417,75 @@
         </div>
 
         <div class="clearfix">
-            <!--Image Box-->
-            <div class="image-box">
-                <div class="inner-box">
-                    <figure class="image"><a href="{{url('public/img/gallery/s1.jpg')}}" class="lightbox-image"><img src="{{url('public/img/gallery/s1.jpg')}}" alt=""></a></figure>
-                    <a href="{{url('public/img/gallery/s1.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-                </div>
-            </div>
+        	<div class="row">
+        		<!--Image Box-->
+	            <div class="image-box">
+	                <div class="inner-box">
+	                    <figure class="image"><a href="{{url('public/layout/gallery/g1.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g1.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
+	                    <a href="{{url('public/layout/gallery/g1.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
+	                </div>
+	            </div>
 
-            <!--Image Box-->
-            <div class="image-box">
-                <div class="inner-box">
-                    <figure class="image"><a href="{{url('public/img/gallery/s2.jpg')}}" class="lightbox-image"><img src="{{url('public/img/gallery/s2.jpg')}}" alt=""></a></figure>
-                    <a href="{{url('public/img/gallery/s2.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-                </div>
-            </div>
+	            <!--Image Box-->
+	            <div class="image-box">
+	                <div class="inner-box">
+	                    <figure class="image"><a href="{{url('public/layout/gallery/g2.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g2.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
+	                    <a href="{{url('public/layout/gallery/g2.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
+	                </div>
+	            </div>
 
-            <!--Image Box-->
-            <div class="image-box">
-                <div class="inner-box">
-                    <figure class="image"><a href="{{url('public/img/gallery/s3.jpg')}}" class="lightbox-image"><img src="{{url('public/img/gallery/s3.jpg')}}" alt=""></a></figure>
-                    <a href="{{url('public/img/gallery/s3.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-                </div>
-            </div>
+	            <!--Image Box-->
+	            <div class="image-box">
+	                <div class="inner-box">
+	                    <figure class="image"><a href="{{url('public/layout/gallery/g3.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g3.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
+	                    <a href="{{url('public/layout/gallery/g3.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
+	                </div>
+	            </div>
 
-            <!--Image Box-->
-            <div class="image-box">
-                <div class="inner-box">
-                    <figure class="image"><a href="{{url('public/img/gallery/s4.jpg')}}" class="lightbox-image"><img src="{{url('public/img/gallery/s4.jpg')}}" alt=""></a></figure>
-                    <a href="{{url('public/img/gallery/s4.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-                </div>
-            </div>
+	            <!--Image Box-->
+	            <div class="image-box">
+	                <div class="inner-box">
+	                    <figure class="image"><a href="{{url('public/layout/gallery/g4.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g4.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
+	                    <a href="{{url('public/layout/gallery/g4.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
+	                </div>
+	            </div>
+        	</div>
+        	{{-- end row --}}
 
-            <!--Image Box-->
-            <div class="image-box">
-                <div class="inner-box">
-                    <figure class="image"><a href="{{url('public/img/gallery/s5.jpg')}}" class="lightbox-image"><img src="{{url('public/img/gallery/s5.jpg')}}" alt=""></a></figure>
-                    <a href="{{url('public/img/gallery/s5.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-                </div>
-            </div>
+        	<div class="row">
+	        	<!--Image Box-->
+	            <div class="image-box">
+	                <div class="inner-box">
+	                    <figure class="image"><a href="{{url('public/layout/gallery/g5.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g5.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
+	                    <a href="{{url('public/layout/gallery/g5.jpeg.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
+	                </div>
+	            </div>
 
-            <!--Image Box-->
-            <div class="image-box">
-                <div class="inner-box">
-                    <figure class="image"><a href="{{url('public/img/gallery/s6.jpg')}}" class="lightbox-image"><img src="{{url('public/img/gallery/s6.jpg')}}" alt=""></a></figure>
-                    <a href="{{url('public/img/gallery/s6.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-                </div>
-            </div>
+	            <!--Image Box-->
+	            <div class="image-box">
+	                <div class="inner-box">
+	                    <figure class="image"><a href="{{url('public/layout/gallery/g6.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g6.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
+	                    <a href="{{url('public/layout/gallery/g6.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
+	                </div>
+	            </div>
 
-            <!--Image Box-->
-            <div class="image-box">
-                <div class="inner-box">
-                    <figure class="image"><a href="{{url('public/img/gallery/s7.jpg')}}" class="lightbox-image"><img src="{{url('public/img/gallery/s7.jpg')}}" alt=""></a></figure>
-                    <a href="{{url('public/img/gallery/s7.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-                </div>
-            </div>
+	            <!--Image Box-->
+	            <div class="image-box">
+	                <div class="inner-box">
+	                    <figure class="image"><a href="{{url('public/layout/gallery/g7.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g7.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
+	                    <a href="{{url('public/layout/gallery/g7.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
+	                </div>
+	            </div>
 
-            <!--Image Box-->
-            <div class="image-box">
-                <div class="inner-box">
-                    <figure class="image"><a href="{{url('public/img/gallery/s8.jpg')}}" class="lightbox-image"><img src="{{url('public/img/gallery/s8.jpg')}}" alt=""></a></figure>
-                    <a href="{{url('public/img/gallery/s8.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-                </div>
-            </div>
-
+	            <!--Image Box-->
+	            <div class="image-box">
+	                <div class="inner-box">
+	                    <figure class="image"><a href="{{url('public/layout/gallery/g8.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g8.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
+	                    <a href="{{url('public/layout/gallery/g8.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
+	                </div>
+	            </div>	
+        	</div>
+        	{{-- end row --}}
         </div>
     </section>
 @endsection

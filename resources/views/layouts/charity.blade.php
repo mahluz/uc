@@ -21,7 +21,7 @@
 		<div class="container">
 			<div class="logo pull-left">
 				<a href="index.html">
-					<img src="{{url('public/img/logo/logo_uc.png')}}" alt="Awesome Image"/>
+					<img src="{{url('public/img/logo/logo.png')}}" alt="Awesome Image"/>
 				</a>
 			</div>
 		</div>
@@ -32,38 +32,18 @@
 			<div class="navigation pull-left">
 				<div class="nav-header">
 					<ul>
-						<li class="dropdown">
-							<a href="#">Home</a>
-							<ul class="submenu">
-								<li><a href="index.html">Home One</a></li>
-								<li><a href="index2.html">Home Two</a></li>
-							</ul>
-						</li>
+						<li><a href="#">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li class="dropdown">
-							<a href="#">Events</a>
-							<ul class="submenu">
-								<li><a href="events-grid.html">Events Grid</a></li>
-								<li><a href="events-list.html">Events List</a></li>
-								<li><a href="events-single.html">Event Single</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
+						{{-- <li><a href="#">Events</a></li> --}}
+						{{-- <li class="dropdown">
 							<a href="#">Gallery</a>
 							<ul class="submenu">
 								<li><a href="gallery-style-one.html">Gallery Style One</a></li>
 								<li><a href="gallery-style-two.html">Gallery Style Two</a></li>
 								<li><a href="gallery-style-three.html">Gallery Style Three</a></li>
 							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="#">Blog</a>
-							<ul class="submenu">
-								<li><a href="blog-style-one.html">Blog Style One</a></li>
-								<li><a href="blog-style-two.html">Blog Style Two</a></li>
-								<li><a href="blog-details.html">Blog Details</a></li>
-							</ul>
-						</li>
+						</li> --}}
+						{{-- <li><a href="#">Blog</a></li> --}}
 						<li><a href="contact.html">Contact</a></li>
 						@if (Route::has('login'))
 			                    @if (Auth::check())
@@ -110,42 +90,42 @@
 					<div class="clients-carousel owl-carousel owl-theme">
 						<div class="item">
 							<div class="img-box">
-								<img src="{{url('public/img/clients/logo-6.png')}}" alt="">
+								<img src="{{url('public/layout/footer/f1.jpeg')}}" alt="">
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{url('public/img/clients/logo-7.png')}}" alt="">
+								<img src="{{url('public/layout/footer/f2.jpeg')}}" alt="">
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{url('public/img/clients/logo-8.png')}}" alt="">
+								<img src="{{url('public/layout/footer/f3.jpeg')}}" alt="">
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{url('public/img/clients/logo-9.png')}}" alt="">
+								<img src="{{url('public/layout/footer/f4.jpeg')}}" alt="">
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{url('public/img/clients/logo-10.png')}}" alt="">
+								<img src="{{url('public/layout/footer/f5.jpeg')}}" alt="">
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{url('public/img/clients/logo-7.png')}}" alt="">
+								<img src="{{url('public/layout/footer/f6.jpeg')}}" alt="">
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{url('public/img/clients/logo-7.png')}}" alt="">
+								<img src="{{url('public/layout/footer/f7.jpeg')}}" alt="">
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{url('public/img/clients/logo-10.png')}}" alt="">
+								<img src="{{url('public/layout/footer/f8.jpeg')}}" alt="">
 							</div>
 						</div>
 					</div>
@@ -181,10 +161,10 @@
 					<div class="footer-widget quick-links">
 						<h3 class="title">Pages</h3>
 						<ul>
-							<li><a href="">Gallery</a></li>
+							{{-- <li><a href="">Gallery</a></li> --}}
 							<li><a href="about.html">About Us</a></li>
-							<li><a href="events-grid.html">Events</a></li>
-							<li><a href="blog-style-one.html">News</a></li>
+							{{-- <li><a href="events-grid.html">Events</a></li> --}}
+							{{-- <li><a href="blog-style-one.html">News</a></li> --}}
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
