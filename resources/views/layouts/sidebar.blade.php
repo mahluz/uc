@@ -32,12 +32,12 @@
                     </a>
                   </li>
                   <li class="treeview">
-                    <a href="{{url('dataSiswa')}}">
+                    <a href="{{url('admin/food')}}">
                       <i class="fa fa-cutlery"></i> <span>Makanan</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
                   <li class="treeview">
-                    <a href="{{url('statistik')}}">
+                    <a href="{{url('admin/drink')}}">
                       <i class="fa fa-beer"></i> <span>Minuman</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
@@ -63,9 +63,25 @@
                   </li>
                   <li class="treeview">
                     <a href="{{url('pencarian')}}">
-                      <i class="fa fa-file-text-o"></i> <span>Gallery</span> <i class="fa fa-angle-left pull-right"></i>
+                      <i class="fa fa-file-text-o"></i> <span>Layout</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
+                  <li class="treeview">
+                    <a href="{{url('admin/user')}}">
+                      <i class="fa fa-user"></i> <span>User</span> <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                  </li>
+                  <li class="treeview">
+                    <a href="{{url('pencarian')}}">
+                      <i class="fa fa-bar-chart-o "></i> <span>Report</span> <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                  </li>
+                  <li class="treeview">
+                    <a href="{{url('pencarian')}}">
+                      <i class="fa fa-thumb-tack "></i> <span>Main Order</span> <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                  </li>
+
               </ul>
             </section>
             <!-- /.sidebar -->

@@ -34,7 +34,7 @@
                 float: none;
             }
         </style>
-        @yield('style')
+        @yield('css')
     </head>
       <body class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper">
@@ -57,10 +57,11 @@
         </div><!-- ./wrapper -->
 
         <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        {{-- angular --}}
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
         <!-- Latest compiled JavaScript -->
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="{{url('public/js/bootstrap.min.js')}}"></script>
         <!-- DataTables -->
         <script src="{{ url('public/plugins/datatables/jquery.dataTables.min.js') }}"></script>
         <script src="{{ url('public/plugins/datatables/dataTables.bootstrap.min.js') }}"></script>
@@ -72,6 +73,24 @@
         <script src="{{ url('public/dist/js/app.min.js') }}"></script>
         <!-- AdminLTE for demo purposes -->
         <script src="{{ url('public/dist/js/demo.js') }}"></script>
+        {{-- bootstrap tags input --}}
+        <script src="{{ url('public/js/bootstrap-tagsinput-angular.js') }}"></script>
+        <script src="{{ url('public/js/bootstrap-tagsinput.js') }}"></script>
+        {{-- jquery format currency --}}
+        <script src="{{ url('public/js/jquery.formatCurrency-1.4.0.min.js') }}"></script>
+        <script src="{{ url('public/js/jquery.formatCurrency.id-ID.js') }}"></script>
+        {{-- jquery validation --}}
+        <script src="{{url('public/js/jquery.validate.min.js')}}"></script>
+        <script src="{{url('public/js/additional-methods.min.js')}}"></script>
+        <script type="text/javascript">
+          
+          $(document).ready(function(){
+
+            $("#table").DataTable();
+
+          });
+
+        </script>
         @yield('script')
     </body>
 </html>

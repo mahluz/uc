@@ -13,7 +13,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="500">
-						To feed and educate!
+						Umalas Corner
 				    </div>
 					<div class="tp-caption sfr tp-resizeme thm-banner-h1 heavy"
 				        data-x="left" data-hoffset="0"
@@ -23,7 +23,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="1000">
-						We need your support
+						Restaurant
 				    </div>
 					<div class="tp-caption sfb tp-resizeme thm-banner-h3"
 				        data-x="left" data-hoffset="0"
@@ -33,7 +33,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="1500">
-						Became a part to change the world
+						and Antique Shop
 				    </div>
 					<div class="tp-caption sfb tp-resizeme thm-banner-p"
 				        data-x="left" data-hoffset="0"
@@ -43,7 +43,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="2000">
-						Our Company has a long tradition of charitable giving and <br> philanthropy. Lorem ipsum dolor sit amet.
+						Lets eat first then do something else after.
 				    </div>
 					<div class="tp-caption sfl tp-resizeme"
 				        data-x="left" data-hoffset="0"
@@ -53,7 +53,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="2300">
-						<a href="#" class="thm-btn">Read more</a>
+						<a href="#" class="thm-btn">Restaurant Menu</a>
 				    </div>
 					<div class="tp-caption sfr tp-resizeme"
 				        data-x="left" data-hoffset="185"
@@ -63,7 +63,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="2600">
-						<a href="#" class="thm-btn inverse">Learn More</a>
+						<a href="#" class="thm-btn inverse">Antique Item</a>
 				    </div>
 				</li>
 				<li data-transition="parallaxvertical">
@@ -76,7 +76,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="500">
-						To feed and educate!
+						Umalas Corner
 				    </div>
 					<div class="tp-caption sfr tp-resizeme thm-banner-h1 heavy black-bg"
 				        data-x="left" data-hoffset="0"
@@ -86,7 +86,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="1000">
-						We need your support
+						Restaurant and Antique Shop
 				    </div>
 					<div class="tp-caption sfb tp-resizeme thm-banner-h3"
 				        data-x="left" data-hoffset="0"
@@ -96,7 +96,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="1500">
-						Became a part to change the world
+						Lets eat first then do something else after. 
 				    </div>
 					<div class="tp-caption sfl tp-resizeme"
 				        data-x="left" data-hoffset="0"
@@ -106,7 +106,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="2300">
-						<a href="#" class="thm-btn">Read more</a>
+						<a href="#" class="thm-btn">Restaurant Menu</a>
 				    </div>
 					<div class="tp-caption sfr tp-resizeme"
 				        data-x="left" data-hoffset="185"
@@ -116,7 +116,7 @@
 				        data-transform_in="o:0"
 				        data-transform_out="o:0"
 				        data-start="2600">
-						<a href="#" class="thm-btn inverse">Learn More</a>
+						<a href="#" class="thm-btn inverse">Antique Item</a>
 				    </div>
 				</li>
 			</ul>
@@ -136,7 +136,7 @@
 							</div>
 						</div>
 						<div class="content-box">
-							<h3>Restaurant</h3>
+							<h3>UC Restaurant</h3>
 							<p>There are many variations of lorem passagei of Lorem Ipsum availabl </p>
 							<a href="#" class="thm-btn inverse">Read more</a>
 						</div>
@@ -150,7 +150,7 @@
 							</div>
 						</div>
 						<div class="content-box">
-							<h3>Barang Antik</h3>
+							<h3>UC Antiques</h3>
 							<p>There are many variations of lorem passagei of Lorem Ipsum availabl </p>
 							<a href="#" class="thm-btn inverse">Read more</a>
 						</div>
@@ -164,7 +164,7 @@
 							</div>
 						</div>
 						<div class="content-box">
-							<h3>Hiburan</h3>
+							<h3>Special Package & Promotion</h3>
 							<p>There are many variations of lorem passagei of Lorem Ipsum availabl </p>
 							<a href="#" class="thm-btn inverse">Read More</a>
 						</div>

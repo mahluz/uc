@@ -15,14 +15,14 @@ class firstSecurity
      * @param  \Closure  $next
      * @return mixed
      */
-    public function handle($request, Closure $next)
+    public function handle($request, Closure $next,$role)
     {
-        if(!Auth::check()){
-            // return abort(503);
+        if(!isset(Auth::user()->role_id)){
             return redirect('login');
         }
-        // (!Auth::check()) ? return abort(503) :
-
+        if(Auth::user()->role_id != $role){
+          return redirect('home');
+        }
         return $next($request);
     }
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Charity Home || Charity and Donation HTML5 Template</title>
+	<title>Umalas Corner</title>
 
 	<!-- responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="{{url('public/css/style.css')}}">
 	<!-- responsive stylesheet -->
 	<link rel="stylesheet" href="{{url('public/css/responsive.css')}}">
-
+	@yield('css')
 
 
 </head>
@@ -32,8 +32,8 @@
 			<div class="navigation pull-left">
 				<div class="nav-header">
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="about.html">About</a></li>
+						<li><a href="{{url('/')}}">Home</a></li>
+						<li><a href="{{url('about')}}">About</a></li>
 						{{-- <li><a href="#">Events</a></li> --}}
 						{{-- <li class="dropdown">
 							<a href="#">Gallery</a>
@@ -44,7 +44,7 @@
 							</ul>
 						</li> --}}
 						{{-- <li><a href="#">Blog</a></li> --}}
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="{{url('contact')}}">Contact</a></li>
 						@if (Route::has('login'))
 			                    @if (Auth::check())
 			                        <li><a href="{{ url('/home') }}">Hello Admin</a></li>
@@ -58,13 +58,16 @@
 					<button><i class="fa fa-bars"></i></button>
 				</div>
 			</div>
-			<div class="search-box pull-right">
+			{{-- <div class="search-box pull-right">
 				<form action="#">
 					<input type="text" placeholder="Search...">
 				</form>
-			</div>
+			</div> --}}
 		</div>
 	</nav> <!-- /.mainmenu-area -->
+
+	@yield('content') 
+	{{-- for sub layout only --}}
 
 	@yield('contact')
 
@@ -140,7 +143,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="footer-widget about-widget">
 						<a href="#">
-							<img src="{{url('public/img/logo/logo_uc.png')}}" alt="Awesome Image"/>
+							<img src="{{url('public/img/logo/logo.png')}}" alt="Awesome Image"/>
 						</a>
 						<p>Lorem ipsum dolor sit amet, eu me evert laboramus, iudico </p>
 						<ul class="contact">
@@ -271,7 +274,7 @@
 
 	<!-- thm custom script -->
 	<script src="{{url('public/js/custom.js')}}"></script>
-
+	@yield('script')
 
 </body>
 </html>
