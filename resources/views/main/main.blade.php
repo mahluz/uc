@@ -136,9 +136,8 @@
 							</div>
 						</div>
 						<div class="content-box">
-							<h3>UC Restaurant</h3>
-							<p>There are many variations of lorem passagei of Lorem Ipsum availabl </p>
-							<a href="#" class="thm-btn inverse">Read more</a>
+							<h3>U.C Restaurant</h3>
+							<a href="#" class="thm-btn inverse">You looking at it right now</a>
 						</div>
 					</div>
 				</div>
@@ -150,9 +149,8 @@
 							</div>
 						</div>
 						<div class="content-box">
-							<h3>UC Antiques</h3>
-							<p>There are many variations of lorem passagei of Lorem Ipsum availabl </p>
-							<a href="#" class="thm-btn inverse">Read more</a>
+							<h3>U.C Antiques</h3>
+							<a href="#" class="thm-btn inverse">Have a Look</a>
 						</div>
 					</div>
 				</div>
@@ -165,8 +163,7 @@
 						</div>
 						<div class="content-box">
 							<h3>Special Package & Promotion</h3>
-							<p>There are many variations of lorem passagei of Lorem Ipsum availabl </p>
-							<a href="#" class="thm-btn inverse">Read More</a>
+							<a href="#" class="thm-btn inverse">Have a Look</a>
 						</div>
 					</div>
 				</div>
@@ -183,108 +180,13 @@
 				<p>Lorem ipsum is a dummy text it will use for subtitle here</p>
 				<span class="decor"><span class="inner"></span></span>
 			</div>
-			<div class="row">
-	          <div class="col-sm-6 col-md-6 col-lg-3">
-	            <div class="causes style-two">
-	              <div class="thumb">
-	                <img class="full-width" alt="" src="{{url('public/layout/promo/promo1.jpeg')}}">
-	                <div class="donate-piechart">
-	                  <div class="piechart-block">
-	                    <div class="piechart style-one"  data-fg-color="rgba(250,119,68,1)" data-value=".75">
-						  <span>.75</span>
-						</div>
-	                  </div>
-	                </div>
-	              </div>
-	              <div class="causes-details clearfix">
-	                <h4 class="title"><a href="#">Sponsor a child today</a></h4>
-	                <ul class="about-causes list-inline clearfix">
-	                  <li class="causes-raised">Raised: $1890</li>
-	                  <li class="causes-goal">Goal: $2500</li>
-	                </ul>
-	                <p>Lorem ipsum dolor sit amet, con sectetur ambo elit. repellendus est rerum sed, aliquid dolor. </p>
-	                <div>
-	                 <a href="#" class="thm-btn btn-xs"> Donate Now </a>
-	                </div>
-	              </div>
-	            </div>
-	          </div>
-	          <div class="col-sm-6 col-md-6 col-lg-3">
-	            <div class="causes style-two">
-	              <div class="thumb">
-	                <img class="full-width" alt="" src="{{url('public/layout/promo/promo2.jpeg')}}">
-	                <div class="donate-piechart">
-	                  <div class="piechart-block">
-	                    <div class="piechart style-one"  data-fg-color="rgba(250,119,68,1)" data-value=".75">
-						  <span>.75</span>
-						</div>
-	                  </div>
-	                </div>
-	              </div>
-	              <div class="causes-details clearfix">
-	                <h4 class="title"><a href="#">Nasi goreng today</a></h4>
-	                <ul class="about-causes list-inline clearfix">
-	                  <li class="causes-raised">Raised: $1890</li>
-	                  <li class="causes-goal">Goal: $2500</li>
-	                </ul>
-	                <p>Lorem ipsum dolor sit amet, con sectetur ambo elit. repellendus est rerum sed, aliquid dolor. </p>
-	                <div>
-	                 <a href="#" class="thm-btn btn-xs"> Read more </a>
-	                </div>
-	              </div>
-	            </div>
-	          </div>
-	          <div class="col-sm-6 col-md-6 col-lg-3">
-	            <div class="causes style-two">
-	              <div class="thumb">
-	                <img class="full-width" alt="" src="{{url('public/layout/promo/promo3.jpeg')}}">
-	                <div class="donate-piechart">
-	                  <div class="piechart-block">
-	                    <div class="piechart style-one"  data-fg-color="rgba(250,119,68,1)" data-value=".75">
-						  <span>.75</span>
-						</div>
-	                  </div>
-	                </div>
-	              </div>
-	              <div class="causes-details clearfix">
-	                <h4 class="title"><a href="#">Pecel lele today</a></h4>
-	                <ul class="about-causes list-inline clearfix">
-	                  <li class="causes-raised">Raised: $1890</li>
-	                  <li class="causes-goal">Goal: $2500</li>
-	                </ul>
-	                <p>Lorem ipsum dolor sit amet, con sectetur ambo elit. repellendus est rerum sed, aliquid dolor. </p>
-	                <div>
-	                 <a href="#" class="thm-btn btn-xs"> Read more </a>
-	                </div>
-	              </div>
-	            </div>
-	          </div>
-	          <div class="col-sm-6 col-md-6 col-lg-3">
-	            <div class="causes style-two">
-	              <div class="thumb">
-	                <img class="full-width" alt="" src="{{url('public/layout/promo/promo2.jpeg')}}">
-	                <div class="donate-piechart">
-	                  <div class="piechart-block">
-	                    <div class="piechart style-one"  data-fg-color="rgba(250,119,68,1)" data-value=".75">
-						  <span>.75</span>
-						</div>
-	                  </div>
-	                </div>
-	              </div>
-	              <div class="causes-details clearfix">
-	                <h4 class="title"><a href="#">Ayam bakar today</a></h4>
-	                <ul class="about-causes list-inline clearfix">
-	                  <li class="causes-raised">Raised: $1890</li>
-	                  <li class="causes-goal">Goal: $2500</li>
-	                </ul>
-	                <p>Lorem ipsum dolor sit amet, con sectetur ambo elit. repellendus est rerum sed, aliquid dolor. </p>
-	                <div>
-	                 <a href="#" class="thm-btn btn-xs"> Read more </a>
-	                </div>
-	              </div>
-	            </div>
-	          </div>
+			<div class="row" id="data-promotion">
+				
+	        </div><hr>
+	        <div class="row" id="pagination-promotion">
+	        	
 	        </div>
+
 		</div>
 	</section>
 @endsection
@@ -300,89 +202,22 @@
 						<span class="inner"></span>
 					</span>
 				</div>
-	            <div>
-	              <div class="event style-two">
-	                <div class="row">
-	                  <div class="col-xs-2">
-	                    <div class="event-thumb">
-	                      <ul class="event-date">
-	                        <li class="date">28</li>
-	                        <li class="month">Aug</li>
-	                      </ul>
-	                    </div>
-	                  </div>
-	                  <div class="col-xs-10">
-	                    <div class="event-content">
-	                      <h5 class="event-title"><a href="#">Charity For Education</a></h5>
-	                      <ul class="event-held list-inline">
-	                        <li class="mr-10" data-text-color="#555"><i class="fa fa-clock-o"></i> 6.00 pm - 8.30 pm</li>
-	                        <li data-text-color="#555"> <i class="fa fa-map-marker"></i> 69 Newyork City.</li>
-	                      </ul>
-	                      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi expedita perspiciatis soluta quidem, recusandae sapiente.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	              </div>
-	              <div class="event style-two">
-	                <div class="row">
-	                  <div class="col-xs-2">
-	                    <div class="event-thumb">
-	                      <ul class="event-date">
-	                        <li class="date">28</li>
-	                        <li class="month">Aug</li>
-	                      </ul>
-	                    </div>
-	                  </div>
-	                  <div class="col-xs-10">
-	                    <div class="event-content">
-	                      <h5 class="event-title"><a href="#">Charity For Education</a></h5>
-	                      <ul class="event-held list-inline">
-	                        <li class="mr-10" data-text-color="#555"><i class="fa fa-clock-o"></i> 6.00 pm - 8.30 pm</li>
-	                        <li data-text-color="#555"> <i class="fa fa-map-marker"></i> 69 Newyork City.</li>
-	                      </ul>
-	                      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi expedita perspiciatis soluta quidem, recusandae sapiente.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	              </div>
-	              <div class="event style-two">
-	                <div class="row">
-	                  <div class="col-xs-2">
-	                    <div class="event-thumb">
-	                      <ul class="event-date">
-	                        <li class="date">28</li>
-	                        <li class="month">Aug</li>
-	                      </ul>
-	                    </div>
-	                  </div>
-	                  <div class="col-xs-10">
-	                    <div class="event-content">
-	                      <h5 class="event-title"><a href="#">Charity For Education</a></h5>
-	                      <ul class="event-held list-inline">
-	                        <li class="mr-10" data-text-color="#555"><i class="fa fa-clock-o"></i> 6.00 pm - 8.30 pm</li>
-	                        <li data-text-color="#555"> <i class="fa fa-map-marker"></i> 69 Newyork City.</li>
-	                      </ul>
-	                      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi expedita perspiciatis soluta quidem, recusandae sapiente.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	              </div>
-	            </div>
+				<div id="data-upcomingEvent">
+					
+				</div>
+
 	          </div>
 				<div class="col-md-6 hidden-md hidden-sm">
-					<div class="img-masonary">
-						<div class="img-w1">
-							<img src="{{url('public/layout/event/event1.jpeg')}}" height="450" width="280" alt="">
-						</div>
-						<div class="img-w1 img-h1">
-							<img src="{{url('public/layout/event/event2.jpeg')}}" height="450" width="280" alt="">
-						</div>
-						<div class="img-w1 img-h1">
-							<img src="{{url('public/layout/event/event3.jpeg')}}" height="450" width="280" alt="">
-						</div>
+					<div class="img-masonary" id="data-imgUpcomingEvent">
+
 					</div>
 				</div>
 	        </div>
+	        <div class="row" id="pagination-upcomingEvent">
+	        	
+	        </div>
+        	{{-- end row pagination --}}
+
 		</div>
 	</section>
 @endsection
@@ -407,7 +242,7 @@
 	</section>
 @endsection
 @section('gallery')
-<section class="gallery-section pb_2">
+<section class="container gallery-section pb_2">
     	<div class="auto-container">
 			<div class="sec-title text-center">
 				<h2>Our Gallery</h2>
@@ -417,76 +252,16 @@
         </div>
 
         <div class="clearfix">
-        	<div class="row">
-        		<!--Image Box-->
-	            <div class="image-box">
-	                <div class="inner-box">
-	                    <figure class="image"><a href="{{url('public/layout/gallery/g1.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g1.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
-	                    <a href="{{url('public/layout/gallery/g1.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-	                </div>
-	            </div>
+        	<div class="row" id="data-gallery">
 
-	            <!--Image Box-->
-	            <div class="image-box">
-	                <div class="inner-box">
-	                    <figure class="image"><a href="{{url('public/layout/gallery/g2.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g2.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
-	                    <a href="{{url('public/layout/gallery/g2.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-	                </div>
-	            </div>
-
-	            <!--Image Box-->
-	            <div class="image-box">
-	                <div class="inner-box">
-	                    <figure class="image"><a href="{{url('public/layout/gallery/g3.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g3.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
-	                    <a href="{{url('public/layout/gallery/g3.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-	                </div>
-	            </div>
-
-	            <!--Image Box-->
-	            <div class="image-box">
-	                <div class="inner-box">
-	                    <figure class="image"><a href="{{url('public/layout/gallery/g4.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g4.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
-	                    <a href="{{url('public/layout/gallery/g4.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-	                </div>
-	            </div>
         	</div>
-        	{{-- end row --}}
 
-        	<div class="row">
-	        	<!--Image Box-->
-	            <div class="image-box">
-	                <div class="inner-box">
-	                    <figure class="image"><a href="{{url('public/layout/gallery/g5.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g5.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
-	                    <a href="{{url('public/layout/gallery/g5.jpeg.jpg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-	                </div>
-	            </div>
+        	<div class="row" id="pagination-gallery">
 
-	            <!--Image Box-->
-	            <div class="image-box">
-	                <div class="inner-box">
-	                    <figure class="image"><a href="{{url('public/layout/gallery/g6.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g6.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
-	                    <a href="{{url('public/layout/gallery/g6.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-	                </div>
-	            </div>
-
-	            <!--Image Box-->
-	            <div class="image-box">
-	                <div class="inner-box">
-	                    <figure class="image"><a href="{{url('public/layout/gallery/g7.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g7.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
-	                    <a href="{{url('public/layout/gallery/g7.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-	                </div>
-	            </div>
-
-	            <!--Image Box-->
-	            <div class="image-box">
-	                <div class="inner-box">
-	                    <figure class="image"><a href="{{url('public/layout/gallery/g8.jpeg')}}" class="lightbox-image"><img src="{{url('public/layout/gallery/g8.jpeg')}}" style="height: 290px;width: 100vw;" alt=""></a></figure>
-	                    <a href="{{url('public/layout/gallery/g8.jpeg')}}" class="lightbox-image btn-zoom" title="Image Title Here"><span class="icon fa fa-dot-circle-o"></span></a>
-	                </div>
-	            </div>	
         	</div>
         	{{-- end row --}}
         </div>
+
     </section>
 @endsection
 @section('news')
@@ -500,74 +275,214 @@
 				</span>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-sm-12 sm-col5-center mb-sm-40">
-					<div class="single-blog-post">
-						<div class="content-box">
-							<div class="date-box">
-								<div class="inner">
-									<div class="date">
-										<b>24</b>
-										apr
-									</div>
-									<div class="comment">
-										<i class="flaticon-interface-1"></i> 8
-									</div>
-								</div>
-							</div>
-							<div class="content">
-								<a href="blog-details.html"><h3>Lates blog post with image</h3></a>
-								<p>There are many variations passages available, but the lorem, ipsum... </p>
-								<a class="btn-details" href="blog-details.html">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12 sm-col5-center mb-sm-40">
-					<div class="single-blog-post">
-						<div class="content-box">
-							<div class="date-box">
-								<div class="inner">
-									<div class="date">
-										<b>24</b>
-										apr
-									</div>
-									<div class="comment">
-										<i class="flaticon-interface-1"></i> 8
-									</div>
-								</div>
-							</div>
-							<div class="content">
-								<a href="blog-details.html"><h3>Lates blog post with image</h3></a>
-								<p>There are many variations passages available, but the lorem, ipsum... </p>
-								<a class="btn-details" href="blog-details.html">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12 sm-col5-center mb-sm-40">
-					<div class="single-blog-post">
-
-						<div class="content-box">
-							<div class="date-box">
-								<div class="inner">
-									<div class="date">
-										<b>24</b>
-										apr
-									</div>
-									<div class="comment">
-										<i class="flaticon-interface-1"></i> 8
-									</div>
-								</div>
-							</div>
-							<div class="content">
-								<a href="blog-details.html"><h3>Lates blog post with image</h3></a>
-								<p>There are many variations passages available, but the lorem, ipsum... </p>
-								<a class="btn-details" href="blog-details.html">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
+				<div id="data-news"></div>
+			</div>
+			<hr>
+			<div class="row">
+				<div id="pagination-news"></div>
 			</div>
 		</div>
 	</section>
+@endsection
+
+@section('content')
+	{{-- every modal placed here --}}
+	@foreach($news as $index => $ini)
+	<!-- Modal -->
+	<div id="myNewsModal{{ $ini->id }}" class="modal fade" role="dialog">
+	  <div class="modal-dialog modal-lg">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">{{ $ini->title }}</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>{{ $ini->description }}</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+	@endforeach
+
+	@foreach($upcoming_event as $index => $ini)
+	<!-- Modal -->
+	<div id="myEventModal{{ $ini->id }}" class="modal fade" role="dialog">
+	  <div class="modal-dialog modal-lg">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">{{ $ini->item }}</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>{{ $ini->content }}</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+	@endforeach
+
+@endsection
+
+@section('script')
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('#pagination-news').pagination({
+		    dataSource: {!!$news!!},
+		    pageSize:3,
+		        className: 'paginationjs-theme-yellow paginationjs-big',
+		    callback: function(data, pagination) {
+		        // template method of yourself
+
+		        $("#data-news").html("");
+		        $.each(data,function(key,i){
+		        	var description = this.description;
+
+			        if(description.length > 10){ 
+						description = description.substring(0,100);
+					}
+		        		$('#data-news').append("\
+		        			<div class='col-md-4 col-sm-12 sm-col5-center mb-sm-40'>\
+								<div class='single-blog-post'>\
+									<div class='content-box'>\
+										<div class='date-box'>\
+											<div class='inner'>\
+												<div class='date'>\
+													<h6>"+this.name+"</h6>\
+												</div>\
+												<div class='comment'>\
+													<h6>"+this.created_at+"</h6>\
+												</div>\
+											</div>\
+										</div>\
+										<div class='content'>\
+											<a href='blog-details.html'><h3>"+this.title+"</h3></a>\
+											<p>"+description+". . .</p>\
+											<span data-toggle='modal' data-target='#myNewsModal"+this.id+"'>\
+											<a class='btn-details' href='#'>Read More</a>\
+											</span>\
+										</div>\
+									</div>\
+								</div>\
+							</div>\
+		        			");
+		        	});
+		        // console.log(data);
+		    }
+		});
+		// end pagination news
+		$('#pagination-gallery').pagination({
+		    dataSource: {!! $gallery !!},
+		    pageSize:2,
+		    className: 'paginationjs-theme-yellow paginationjs-big',
+		    callback: function(data, pagination) {
+		        // template method of yourself
+		        $("#data-gallery").html("");
+		        $.each(data,function(key,i){
+		        		$('#data-gallery').append("\
+		        			<div class='image-box'>\
+				                <div class='inner-box'>\
+				                    <figure class='image'><a href='http://localhost/uc/storage/app/"+this.photo+"' class='lightbox-image'><img src='http://localhost/uc/storage/app/"+this.photo+"' class='img-responsive' alt=''></a></figure>\
+				                    <a href='http://localhost/uc/storage/app/"+this.photo+"' class='lightbox-image btn-zoom' title='"+this.title+"'><span class='icon fa fa-dot-circle-o'></span></a>\
+				                </div>\
+				            </div>\
+		        			");
+		        	});
+		        // console.log(data);
+		    }
+		});
+		// end pagination gallery
+
+		$('#pagination-upcomingEvent').pagination({
+		    dataSource: {!! $upcoming_event !!},
+		    pageSize:3,
+		    className: 'paginationjs-theme-yellow paginationjs-big',
+		    callback: function(data, pagination) {
+		        // template method of yourself
+		        console.log(data);
+		        $("#data-upcomingEvent").html("");
+		        $("#data-imgUpcomingEvent").html("");
+		        $.each(data,function(key,i){
+		        		$('#data-upcomingEvent').append("\
+		        			<div class='event style-two'>\
+				                <div class='row'>\
+				                  <div class='col-xs-2'>\
+				                    <div class='event-thumb'>\
+				                      <ul class='event-date'>\
+				                        <li class='date'>U.C</li>\
+				                        <li class='month'>Event</li>\
+				                      </ul>\
+				                    </div>\
+				                  </div>\
+				                  <div class='col-xs-10'>\
+				                    <div class='event-content'>\
+				                      <h5 class='event-title'><a href='#'>"+this.item+"</a></h5>\
+				                      <ul class='event-held list-inline'>\
+				                        <li class='mr-10' data-text-color='#555'><i class='fa fa-clock-o'></i> </li>\
+				                        <li data-text-color='#555'> <i class='fa fa-map-marker'>"+this.date+"</i> </li>\
+				                      </ul>\
+				                      <p class='mb-0'>"+this.place+"</p>\
+				                      <a href='#' data-toggle='modal' data-target='#myEventModal"+this.id+"'><button type='button' class='btn btn-default pull-right'>Read More</button></a>\
+				                    </div>\
+				                  </div>\
+				                </div>\
+				              </div>\
+		        			");
+
+		        		$("#data-imgUpcomingEvent").append("\
+		        			<div class='img-w1 img-h1'>\
+								<img src='http://localhost/uc/storage/app/"+this.photo+"' height='450' width='280' alt=''>\
+							</div>\
+		        			");
+		        	});
+		        // console.log(data);
+		    }
+		});
+		// end pagination gallery
+
+		$("#pagination-promotion").pagination({
+			dataSource:{!! $promotion !!},
+			pageSize:4,
+			className: 'paginationjs-theme-yellow paginationjs-big',
+			callback:function(data,pagination){
+				$("#data-promotion").html("");
+				$.each(data,function(key,i){
+					$("#data-promotion").append("\
+						<div class='col-sm-6 col-md-6 col-lg-3'>\
+			            	<div class='causes style-two'>\
+				              	<div class='thumb'>\
+					            	<img class='full-width' alt='' src='http://localhost/uc/storage/app/"+this.photo+"'>\
+					            </div>\
+					            <div class='causes-details clearfix'>\
+					                <h4 class='title'><a href='#'>"+this.item+"</a></h4>\
+					                <ul class='about-causes list-inline clearfix'>\
+					                  <li class='causes-goal'>Price: "+this.price+"</li>\
+					                </ul>\
+					                <p>"+this.content+"</p>\
+					                <div>\
+					                 <a href='#' class='thm-btn btn-xs'> Buy now </a>\
+					                </div>\
+					            </div>\
+				            </div>\
+			          	</div>\
+						");
+				});
+			}
+		});
+
+	});
+	// end ready function
+</script>
 @endsection

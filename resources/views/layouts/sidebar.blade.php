@@ -5,11 +5,11 @@
               <!-- Sidebar user panel -->
               <div class="user-panel">
                 <div class="pull-left image">
-                  <img src="https://ieboost.com/wp-content/uploads/2015/11/hassanmir.png" class="img-circle" alt="User Image">
+                  <img src="{{url('storage/app/'.Auth::user()->photo)}}" class="img-circle" alt="User Image">
                 </div>
                 <div class="pull-left info">
-                  <p></p>
-                  <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                  <p>Online</p>
+                  <a href="#"><h5><i class="fa fa-circle text-success"></i> {{ Auth::user()->name }}</h5></a>
                 </div>
               </div>
               <!-- search form -->
@@ -27,7 +27,7 @@
                   <li class="header">MAIN NAVIGATION</li>
 
                   <li class="treeview">
-                    <a href="{{url('Beranda')}}">
+                    <a href="{{url('admin')}}">
                       <i class="fa fa-desktop"></i> <span>Beranda</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
@@ -42,29 +42,43 @@
                     </a>
                   </li>
                   <li class="treeview">
-                    <a href="{{url('statistik')}}">
+                    <a href="{{url('admin/dessert')}}">
                       <i class="fa fa-coffee"></i> <span>Dessert</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
-                  <li class="treeview">
-                    <a href="{{url('pencarian')}}">
+                  {{-- <li class="treeview">
+                    <a href="{{url('admin/news')}}">
                       <i class="fa fa-quote-right"></i> <span>News</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
-                  </li>
-                  <li class="treeview">
+                  </li> --}}
+                  {{-- <li class="treeview">
                     <a href="{{url('pencarian')}}">
                       <i class="fa fa-check-square-o"></i> <span>Event</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
-                  </li>
-                  <li class="treeview">
+                  </li> --}}
+                  {{-- <li class="treeview">
                     <a href="{{url('pencarian')}}">
                       <i class="fa fa-image"></i> <span>Gallery</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
-                  </li>
+                  </li> --}}
                   <li class="treeview">
-                    <a href="{{url('pencarian')}}">
+                    <a href="">
                       <i class="fa fa-file-text-o"></i> <span>Layout</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
+                    <ul class="treeview-menu">
+                      <li class=""><a href="{{url('admin/promotion')}}"><i class="fa fa-circle-o">
+                        </i> Promotion Today</a>
+                      </li>
+                      <li class=""><a href="{{url('admin/upcomingEvent')}}"><i class="fa fa-circle-o">
+                        </i> Upcoming Event</a>
+                      </li>
+                      <li class=""><a href="{{url('admin/news')}}"><i class="fa fa-circle-o">
+                        </i> News</a>
+                      </li>
+                      <li class=""><a href="{{url('admin/gallery')}}"><i class="fa fa-circle-o">
+                        </i> Gallery</a>
+                      </li>
+                    </ul>
                   </li>
                   <li class="treeview">
                     <a href="{{url('admin/user')}}">
@@ -73,12 +87,12 @@
                   </li>
                   <li class="treeview">
                     <a href="{{url('pencarian')}}">
-                      <i class="fa fa-bar-chart-o "></i> <span>Report</span> <i class="fa fa-angle-left pull-right"></i>
+                      <i class="fa fa-bar-chart-o "></i> <span>Report [Order System]</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
                   <li class="treeview">
                     <a href="{{url('pencarian')}}">
-                      <i class="fa fa-thumb-tack "></i> <span>Main Order</span> <i class="fa fa-angle-left pull-right"></i>
+                      <i class="fa fa-thumb-tack "></i> <span>Main Order [Order System]</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
 

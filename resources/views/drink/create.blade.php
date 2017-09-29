@@ -11,7 +11,7 @@
 					Form Drink
 				</div>
 				<div class="panel-body">
-					<form class="form" action="" method="POST" id="form">
+					<form class="form" action="{{ url('admin/drink/store') }}" enctype="multipart/form-data" method="POST" id="form">
 						<div class="form-group">
 							<span class="label label-default">Nama Minuman: </span>
 							<input type="text" class="form-control" name="name" required>
@@ -32,6 +32,7 @@
 							<span class="label label-default">Upload gambar: </span>
 							<input type="file" name="photo">
 						</div>
+						{{ csrf_field() }}
 						<button type="submit" class="btn btn-success btn-block">Submit</button>
 					</form>
 				</div>

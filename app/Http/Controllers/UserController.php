@@ -13,18 +13,38 @@ class UserController extends Controller
     	return view('user.index',$data);
     }
     public function create(){
-
+        $data["role"] = role::get();
+        return view('user.create',$data);
     }
     public function store(Request $request){
+        $db["user"] = User::create([
+            'name' => $request['name'],
+            'email' => $request['email'],
+            'role_id'=> $request['role'],
+            'password' => bcrypt($request['password']),
+        ]);
 
+        return redirect('admin/user');
     }
-    public function edit(){
+    public function edit(Request $request){
+        $data["user"] = User::where('id',$request["id"])->first();
+        $data["role"] = role::get();
 
+        return view('user.edit',$data);
     }
-    public function update(){
+    public function update(Request $request){
+         $db["user"] = User::where('id',$request["id"])->update([
+            'name' => $request['name'],
+            'email' => $request['email'],
+            'role_id'=> $request['role'],
+            'password' => bcrypt($request['password']),
+        ]);
 
+        return redirect('admin/user');
     }
     public function delete(Request $request){
-    	
+    	$db["user"] = User::where('id',$request["id"])->delete();
+
+        return redirect('admin/user');
     }
 }

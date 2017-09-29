@@ -66,6 +66,11 @@
 											<input type="hidden" name="id" value="{{$ini->id}}">
 											<input type="hidden" name="photo" value="{{$ini->photo}}">
 										</form>
+										<form id="edit{{$ini->id}}" action="{{url('admin/food/edit')}}" method="POST">
+											{{csrf_field()}}
+											<input type="hidden" name="id" value="{{$ini->id}}">
+											<input type="hidden" name="photo" value="{{$ini->photo}}">
+										</form>
 									</td>
 								</tr>
 								@endforeach

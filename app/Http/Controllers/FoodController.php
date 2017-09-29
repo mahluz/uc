@@ -47,4 +47,39 @@ class FoodController extends Controller
 
     	return redirect('admin/food');
     }
+    public function edit(Request $request){
+        // dd($request);
+        $data["food"] = Food::where('id',$request["id"])->first();
+        return view('food.edit',$data);
+    }
+    public function update(Request $request){
+        // dd($request);
+        if($request->hasFile('photo')){
+            $path = $request->file('photo')->store('photos'); 
+
+            $data['food'] = Food::where('id',$request["id"])->update([
+                "user_id"=> Auth::user()->id,
+                "name" =>$request['name'],
+                "description"=>$request['description'],
+                "ingredient" =>$request['ingredient'],
+                "cost"=>$request['cost'],
+                "selling_price"=>$request['selling_price'],
+                "photo"=>$path,
+                ]);
+
+            $file["photo"] = File::delete('storage/app/'.$request["old_photo"]);
+
+        } else {
+
+            $data['food'] = Food::where('id',$request["id"])->update([
+                "user_id"=> Auth::user()->id,
+                "name" =>$request['name'],
+                "description"=>$request['description'],
+                "ingredient" =>$request['ingredient'],
+                "cost"=>$request['cost'],
+                "selling_price"=>$request['selling_price']
+                ]);
+        }
+        return redirect('admin/food');
+    }
 }

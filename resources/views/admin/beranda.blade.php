@@ -96,7 +96,7 @@
 @endsection
 @section('content')
 
-	<div class="container">
+	<div class="container-fluid">
 	    <!-- Page Heading -->
 	    <div class="row">
 	        <div class="col-lg-12">
@@ -124,10 +124,10 @@
 	                <!-- Wrapper for slides -->
 	                <div class="carousel-inner">
 	                    <div class="item item1 active">
-	                        <div class="fill" style=" background-color:#48c3af;">
+	                        <div class="fill" >
 	                            <div class="inner-content">
 	                                <div class="carousel-img">
-	                                    <img src="" alt="logo" class="img img-responsive" />
+	                                    <img src="{{url('public/images/bg3.jpeg')}}" alt="logo" class="img img-responsive img-thumbnail" />
 	                                </div>
 	                                <div class="carousel-desc">
 
@@ -140,28 +140,33 @@
 	                        </div>
 	                    </div>
 	                    <div class="item item2">
-	                        <div class="fill" style="background-color:#b33f4a;">
+	                        <div class="fill">
 	                            <div class="inner-content">
 	                                <div class="carousel-img">
-	                                    <img src="" alt="logo" class="img img-responsive" />
+	                                    <img src="{{url('public/images/bg1.jpeg')}}" alt="logo" class="img img-responsive img-thumbnail" />
 	                                </div>
 	                                <div class="carousel-desc">
 
 	                                    <h2>About</h2>
 
-	                                    <p>Sistem pendukung keputusan adalah sistem yang mampu memberikan kemampuan pemecahan masalah maupun kemampun pengkomunikasian untuk masalah dengan kondisi semi terstruktur dan tidak terstruktur. Sistem pendukung keputusan ini digunakan untuk menentukan mahasiswa berprestasi Jurusan Teknik Elektro berdasarkan 3 kriteria yang sudah ditentukan yaitu berdasrkan IPK, TOEFL dan Prestasi yang diperoleh mahasiswa </p>
+	                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
 	                                </div>
 	                            </div>
 	                        </div>
 	                    </div>
 	                    <div class="item item3">
-	                        <div class="fill" style="background-color:#7fc2f4;">
+	                        <div class="fill">
 	                            <div class="inner-content">
 	                                <div class="col-md-6">
 
 	                                    <div class="carousel-img">
-	                                        <img src="" alt="logo" class="img img-responsive" />
+	                                        <img src="{{url('public/images/bg2.jpeg')}}" alt="logo" class="img img-responsive img-thumbnail" />
 	                                    </div>
 	                                </div>
 

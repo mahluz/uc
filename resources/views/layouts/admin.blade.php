@@ -8,7 +8,8 @@
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        {{-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> --}}
+        <link rel="stylesheet" type="text/css" href="{{url('public/css/bootstrap.min.css')}}">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="{{ url('public/font-awesome-4.6.1/css/font-awesome.min.css')}}">
         <!-- Ionicons -->
@@ -20,6 +21,8 @@
         <!-- AdminLTE Skins. Choose a skin from the css/skins
              folder instead of downloading all of them to reduce the load. -->
         <link rel="stylesheet" href="{{ url('public/dist/css/skins/_all-skins.min.css')}}">
+        {{-- pagination css --}}
+        <link rel="stylesheet" type="text/css" href="{{ url('public/css/pagination.css') }}">
         <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
         <style type="text/css">
             html, body{
@@ -57,9 +60,9 @@
         </div><!-- ./wrapper -->
 
         <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="{{url('public/js/jquery-1.9.1.min.js')}}"></script>
         {{-- angular --}}
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="{{url('public/js/angular.min.js')}}"></script>
         <!-- Latest compiled JavaScript -->
         <script src="{{url('public/js/bootstrap.min.js')}}"></script>
         <!-- DataTables -->
@@ -82,6 +85,8 @@
         {{-- jquery validation --}}
         <script src="{{url('public/js/jquery.validate.min.js')}}"></script>
         <script src="{{url('public/js/additional-methods.min.js')}}"></script>
+        {{-- pagination js --}}
+        <script src="{{ url('public/js/pagination.min.js') }}"></script>
         <script type="text/javascript">
           
           $(document).ready(function(){

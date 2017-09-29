@@ -19,8 +19,8 @@
                 </li>
             </ol>
         </div>
-    </div><hr>
-
+    </div>
+    <a href="{{ url('admin/user/create') }}"><button type="button" class="btn btn-primary">Create new User</button></a><hr>
     <div class="row">
     	<div class="col-lg-12">
 	    	<div class="table-responsive">

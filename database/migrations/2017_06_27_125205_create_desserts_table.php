@@ -22,6 +22,7 @@ class CreateDessertsTable extends Migration
             $table->bigInteger('cost');
             $table->bigInteger('selling_price');
             $table->string('photo');
+            $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
         });

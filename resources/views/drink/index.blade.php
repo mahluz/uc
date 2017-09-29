@@ -27,6 +27,7 @@
 					Drink Management
 				</div>
 				<div class="panel-body">
+					<div class="table-responsive">
 					<table class="table table-bordered" id="table">
 						<thead>
 							<tr>
@@ -43,11 +44,11 @@
 							@foreach($drinks as $index => $ini)
 							<tr>
 								<td>{{$index+1}}</td>
-								<td><img src="{{$ini->photo}}"></td>
+								<td><img src="{{url('storage/app/'.$ini->photo)}}" class="img-responsive"></td>
 								<td>{{$ini->name}}</td>
 								<td>{{$ini->description}}</td>
-								<td>{{$ini->cost}}</td>
-								<td>{{$ini->selling_price}}</td>
+								<td class="harga">{{$ini->cost}}</td>
+								<td class="harga">{{$ini->selling_price}}</td>
 								<td>
 									<span data-toggle="modal" data-target="#myModal">
 										<a class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="top" title="Edit Minuman" onclick="event.preventDefault();document.getElementById('edit{{$ini->id}}').submit();">
@@ -64,11 +65,16 @@
 										<input type="hidden" name="id" value="{{$ini->id}}">
 										<input type="hidden" name="photo" value="{{$ini->photo}}">
 									</form>
+									<form id="edit{{$ini->id}}" action="{{url('admin/drink/edit')}}" method="POST">
+										{{csrf_field()}}
+										<input type="hidden" name="id" value="{{$ini->id}}">
+									</form>
 								</td>
 							</tr>
 							@endforeach
 						</tbody>
-					</table>
+					</table>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -79,7 +85,10 @@
 <script type="text/javascript">
 	
 $(document).ready(function(){
-	$("#table").DataTables();
+	$("#ingredient").tagsinput({
+		freeInput:false,
+	});
+	$('.harga').formatCurrency({ colorize:true, region: 'id-ID' });
 });
 
 </script>

@@ -11,6 +11,14 @@
 	<link rel="stylesheet" href="{{url('public/css/style.css')}}">
 	<!-- responsive stylesheet -->
 	<link rel="stylesheet" href="{{url('public/css/responsive.css')}}">
+	{{-- pagination css --}}
+    <link rel="stylesheet" type="text/css" href="{{ url('public/css/pagination.css') }}">
+    <style type="text/css">
+    	#map {
+	        height: 400px;
+	        width: 100%;
+	    }
+    </style>
 	@yield('css')
 
 
@@ -19,7 +27,7 @@
 
 	<header class="header">
 		<div class="container">
-			<div class="logo pull-left">
+			<div class="logo text-center">
 				<a href="index.html">
 					<img src="{{url('public/img/logo/logo.png')}}" alt="Awesome Image"/>
 				</a>
@@ -66,7 +74,6 @@
 		</div>
 	</nav> <!-- /.mainmenu-area -->
 
-	@yield('content') 
 	{{-- for sub layout only --}}
 
 	@yield('contact')
@@ -83,7 +90,9 @@
 
 	@yield('gallery')
 
-  @yield('news')
+  	@yield('news')
+
+  	@yield('content') 
 
 
 	<section class="p_40" data-bg-color="#eee">
@@ -160,45 +169,8 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-2 col-sm-6">
-					<div class="footer-widget quick-links">
-						<h3 class="title">Pages</h3>
-						<ul>
-							{{-- <li><a href="">Gallery</a></li> --}}
-							<li><a href="about.html">About Us</a></li>
-							{{-- <li><a href="events-grid.html">Events</a></li> --}}
-							{{-- <li><a href="blog-style-one.html">News</a></li> --}}
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 latest-post col-sm-6">
-					<div class="footer-widget latest-post">
-						<h3 class="title">Latest News</h3>
-						<ul>
-							<li>
-								<span class="border"></span>
-								<div class="content">
-									<a href="blog-details.html">If you need a crown or lorem an implant you will pay it </a>
-									<span>July 2, 2014</span>
-								</div>
-							</li>
-							<li>
-								<span class="border"></span>
-								<div class="content">
-									<a href="blog-details.html">If you need a crown or lorem an implant you will pay it </a>
-									<span>July 2, 2014</span>
-								</div>
-							</li>
-							<li>
-								<span class="border"></span>
-								<div class="content">
-									<a href="blog-details.html">If you need a crown or lorem an implant you will pay it </a>
-									<span>July 2, 2014</span>
-								</div>
-							</li>
-						</ul>
-					</div>
+				<div class="col-md-5 col-sm-6">
+					<div id="map"></div>
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="footer-widget contact-widget">
@@ -247,11 +219,6 @@
 	<script src="{{url('public/js/jquery.easing.min.js')}}"></script>
 	<!-- count to -->
 	<script src="{{url('public/js/jquery.countTo.js')}}"></script>
-	<!-- gmap helper -->
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<!-- gmap main script -->
-	<script src="{{url('public/js/gmap.js')}}"></script>
-
 	<!-- isotope script -->
 	<script src="{{url('public/js/isotope.pkgd.min.js')}}"></script>
 	<!-- jQuery ui js -->
@@ -270,10 +237,28 @@
 	<script type="text/javascript" src="{{url('public/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
 	<script type="text/javascript" src="{{url('public/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
 	<script type="text/javascript" src="{{url('public/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
-
+	{{-- pagination js --}}
+	<script src="{{ url('public/js/pagination.min.js') }}"></script>
 
 	<!-- thm custom script -->
 	<script src="{{url('public/js/custom.js')}}"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+		});
+		function initMap() {
+	        var location = {lat: -8.667793, lng: 115.163463};
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	          zoom: 15,
+	          center: location
+	        });
+	        var marker = new google.maps.Marker({
+	          position: location,
+	          map: map
+	        });
+	      }
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuOrz-fTKmGhLNwjTH8kyWJRU9c-GGrmw&callback=initMap" type="text/javascript"></script>
 	@yield('script')
 
 </body>

@@ -20,7 +20,7 @@
                       <i class="fa fa-envelope-o"> <span class="badge" id="totalNotif">7</span></i>
                     </a>
                     <ul class="dropdown-menu">
-                      <li class="header">Anda memiliki komentar baru</li>
+                      <li class="header">New Order</li>
                       <li>
                         <!-- inner menu: contains the actual data -->
                         <ul class="menu" id="notif">
@@ -33,15 +33,15 @@
                   <!-- User Account: style can be found in dropdown.less -->
                   <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      <img src="https://ieboost.com/wp-content/uploads/2015/11/hassanmir.png" class="user-image" alt="User Image">
+                      <img src="{{url('storage/app/'.Auth::user()->photo)}}" class="user-image" alt="User Image">
                       <span>{{Auth::user()->name}}</span>
                     </a>
                     <ul class="dropdown-menu">
                       <!-- User image -->
                       <li class="user-header">
-                        <img src="https://ieboost.com/wp-content/uploads/2015/11/hassanmir.png" class="img-circle" alt="User Image">
+                        <img src="{{url('storage/app/'.Auth::user()->photo)}}" class="img-circle" alt="User Image">
                       </li>
-                      <!-- Menu Body -->
+                      {{-- <!-- Menu Body -->
                       <li class="user-body">
                         <div class="col-xs-4 text-center">
                           <a href="{{ url('profile/timeline') }}">Timeline</a>
@@ -52,11 +52,11 @@
                         <div class="col-xs-4 text-center">
                           <a href="{{ url('profile/password') }}">Change Password</a>
                         </div>
-                      </li>
+                      </li> --}}
                       <!-- Menu Footer-->
                       <li class="user-footer">
                         <div class="pull-left">
-                          <a href="{{ url('profile') }}" class="btn btn-default btn-flat">Profile</a>
+                          <a href="{{ url('admin/profile/edit') }}" class="btn btn-default btn-flat">Profile</a>
                         </div>
                         <div class="pull-right">
                           <a href="{{ route('logout') }}"
@@ -72,8 +72,8 @@
               </div>
             </nav>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                            {{ csrf_field() }}
-                        </form>
+                {{ csrf_field() }}
+            </form>
             <input type="hidden" name="" id="statusUser" value="{{Auth::user()->id_role}}">
 
           </header>
