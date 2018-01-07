@@ -29,7 +29,7 @@
 		<div class="container">
 			<div class="logo text-center">
 				<a href="index.html">
-					<img src="{{url('public/img/logo/logo.png')}}" alt="Awesome Image"/>
+					<img src="{{url('public/img/logo/logo.jpeg')}}" alt="Awesome Image"/>
 				</a>
 			</div>
 		</div>
@@ -152,7 +152,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="footer-widget about-widget">
 						<a href="#">
-							<img src="{{url('public/img/logo/logo.png')}}" alt="Awesome Image"/>
+							<img src="{{url('public/img/logo/logo.jpeg')}}" alt="Awesome Image"/>
 						</a>
 						<p>Lorem ipsum dolor sit amet, eu me evert laboramus, iudico </p>
 						<ul class="contact">

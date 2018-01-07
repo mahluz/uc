@@ -1,4 +1,4 @@
-<?php
+\<?php
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
@@ -16,19 +16,14 @@ class CreateOrderTable extends Migration
         Schema::create('orders',function(Blueprint $table){
           $table->increments('id');
           $table->integer('user_id')->unsigned();
-          $table->integer('food_id')->unsigned();
-          $table->string('food_order');
-          $table->integer('drink_id')->unsigned();
-          $table->string('drink_order');
-          $table->integer('dessert_id')->unsigned();
-          $table->string('dessert_order');
+          $table->string('atas_nama');
+          $table->string('nomor_meja');
+          $table->string('status');
+          $table->string('total_pembayaran')->default(0);
           $table->timestamps();
           $table->softDeletes();
 
           $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
-          $table->foreign('food_id')->references('id')->on('foods')->onDlete('cascade')->onUpdate('cascade');
-          $table->foreign('drink_id')->references('id')->on('drinks')->onDelete('cascade')->onUpdate('cascade');
-          $table->foreign('dessert_id')->references('id')->on('desserts')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 

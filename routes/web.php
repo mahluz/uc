@@ -117,3 +117,14 @@ Route::group(['middleware'=>'firstSecurity:1'],function(){
 });
 // end first security
 
+// API routes
+Route::group(['middleware'=>'api','prefix'=>'api'],function(){
+	Route::post('auth/login','ApiController@login');
+
+	Route::group(['middleware'=>'jwt.auth'],function(){
+		Route::post('user','ApiController@getAuthUser');
+		Route::post('problem','ApiController@getProblem');
+		Route::post('request','ApiController@request');
+	});
+});
+
