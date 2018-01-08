@@ -111,6 +111,18 @@ Route::group(['middleware'=>'firstSecurity:1'],function(){
 			Route::post('update','ProfileController@update');
 		});
 
+		Route::get('report','ReportController@index');
+		Route::group(['prefix'=>'report'],function(){
+			
+		});
+		// end report group
+
+		Route::get('order','OrderController@index');
+		Route::group(['prefix'=>'order'],function(){
+
+		});
+		// end order group
+
 	});
 	// end admin group
 

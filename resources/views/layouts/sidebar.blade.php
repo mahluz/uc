@@ -86,13 +86,13 @@
                     </a>
                   </li>
                   <li class="treeview">
-                    <a href="{{url('pencarian')}}">
-                      <i class="fa fa-bar-chart-o "></i> <span>Report [Order System]</span> <i class="fa fa-angle-left pull-right"></i>
+                    <a href="{{url('admin/report')}}">
+                      <i class="fa fa-bar-chart-o "></i> <span>Report</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
                   <li class="treeview">
-                    <a href="{{url('pencarian')}}">
-                      <i class="fa fa-thumb-tack "></i> <span>Main Order [Order System]</span> <i class="fa fa-angle-left pull-right"></i>
+                    <a href="{{url('admin/order')}}">
+                      <i class="fa fa-thumb-tack "></i> <span>Main Order</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
 
