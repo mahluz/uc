@@ -30,8 +30,35 @@
                     </select>
                 </div>
             </form>
-    		<canvas id="myChart" width="400" height="400"></canvas>
     	</div>
+    </div>
+
+    <div class="row">
+       <div class="col-lg-12">
+           <div class="table-responsive">
+               <table class="table table-striped" id="table">
+                   <thead>
+                       <tr>
+                           <td>No</td>
+                           <td>Tanggal</td>
+                           <td>Pemasukan</td>
+                       </tr>
+                   </thead>
+               </table>
+           </div>
+       </div> 
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <input type="text" name="total" class="form-control" placeholder="total">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
     </div>
 
 </div>
@@ -43,10 +70,10 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["januari", "februari", "maret", "april", "mei", "juni"],
+        labels: ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu","minggu"],
         datasets: [{
             label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [12, 19, 3, 5, 2, 3,16],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
