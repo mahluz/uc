@@ -37,7 +37,7 @@
 </div>
 @endsection
 @section('script')
-<script type="text/javascript" src="{{ url('node_modules/chart.js/dist/Chart.js') }}"></script>
+<script type="text/javascript" src="{{ url('public/js/Chart.js') }}"></script>
 <script type="text/javascript">
 var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
