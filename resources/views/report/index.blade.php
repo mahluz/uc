@@ -20,6 +20,16 @@
 
     <div class="row">
     	<div class="col-lg-12">
+            <form class="form">
+                <div class="form-group">
+                    <label>Keuangan:</label>
+                    <select class="form-control">
+                        @foreach ($report as $index => $ini)
+                            <option>{{ date('M Y',strtotime( $ini->monthyear )) }}</option>
+                        @endforeach
+                    </select>
+                </div>
+            </form>
     		<canvas id="myChart" width="400" height="400"></canvas>
     	</div>
     </div>
@@ -33,7 +43,7 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["januari", "februari", "maret", "april", "mei", "juni"],
         datasets: [{
             label: '# of Votes',
             data: [12, 19, 3, 5, 2, 3],

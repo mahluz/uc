@@ -113,13 +113,14 @@ Route::group(['middleware'=>'firstSecurity:1'],function(){
 
 		Route::get('report','ReportController@index');
 		Route::group(['prefix'=>'report'],function(){
-			
+
 		});
 		// end report group
 
 		Route::get('order','OrderController@index');
 		Route::group(['prefix'=>'order'],function(){
-
+			Route::post('delete','OrderController@delete');
+			Route::post('payment','OrderController@payment');
 		});
 		// end order group
 

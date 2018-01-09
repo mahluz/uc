@@ -46,7 +46,22 @@
     						@endif
     						<td class="harga">{{ $ini->total_pembayaran }}</td>
     						<td>{{ $ini->created_at }}</td>
-    						<td></td>
+    						<td>
+                                <span data-toggle="modal" onclick="modal({{ $ini->id }})">
+                                    <a class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="top" title="verifikasi pembayaran" onclick="event.preventDefault();document.getElementById('edit{{$ini->id}}').submit();">
+                                    <i class="fa fa-edit"></i>
+                                    </a>
+                                </span>
+                                {{-- <span data-toggle="modal" data-target="#myModal"> --}}
+                                    <a class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="top" title="Hapus order" onclick="event.preventDefault();document.getElementById('delete{{$ini->id}}').submit();">
+                                    <i class="fa fa-times"></i>
+                                    </a>
+                                {{-- </span> --}}
+                                <form id="delete{{$ini->id}}" action="{{url('admin/order/delete')}}" method="POST">
+                                    {{csrf_field()}}
+                                    <input type="hidden" name="id" value="{{$ini->id}}">
+                                </form>                  
+                            </td>
     					</tr>
     					@endforeach
     				</tbody>
@@ -54,6 +69,34 @@
     		</div>
     	</div>
     </div>
+</div>
+
+{{-- every modal placed here --}}
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Verifikasi Pembayaran</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center">Anda yakin ?</p>
+        <button class="btn btn-danger btn-block" onclick="event.preventDefault();document.getElementById('payment_form').submit();">Ya</button>
+        <button class="btn btn-warning btn-block" data-dismiss="modal">Tidak</button>
+        <form id="payment_form" action="{{ url('admin/order/payment') }}" method="POST">
+            {{ csrf_field() }}
+            <input type="hidden" name="id" value="" id="payment_id">
+        </form>
+      </div>
+      <div class="modal-footer">
+        {{-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> --}}
+      </div>
+    </div>
+
+  </div>
 </div>
 @endsection
 @section('script')
@@ -64,5 +107,10 @@
 		});
 		$('.harga').formatCurrency({ colorize:true, region: 'id-ID' });
 	});
+
+    function modal(id){
+        $("#myModal").modal();
+        $("#payment_id").val(id);
+    }
 </script>
 @endsection
